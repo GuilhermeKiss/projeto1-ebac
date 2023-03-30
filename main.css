@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button,
+.curriculum {
+    font-family: 'Alkatra', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #c5d5d8;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #293138;
+    color: #f2f4f5;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #f2f4f5;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color:#3d5caf;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #293138;
+}
+
+section h2 {
+    margin-bottom: 16px; 
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.profile-picture {
+    margin-right: 32px;
+    height: 400px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-methods h5 {
+    margin-bottom: 16px;
+}
+
+.font-form {
+    font-size: 14px;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    margin-top: 8px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button,
+.curriculum {
+    background-color: #293138;
+    color: #f2f4f5;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover,
+.curriculum:hover {
+    background-color: #3d5caf;
+}
+
+input:focus {
+    outline-color: #3d5caf;
+}
+
+.curriculum {
+    display: block;
+    width: 270px;
+    margin-bottom: 8px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #293138;
+    color: #f2f4f5;
+    padding: 16px 0;
+    text-align: center;
+}
+
+

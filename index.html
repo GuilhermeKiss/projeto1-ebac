@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Guilherme Kiss</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portfólio - Guilherme Kiss</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img class="profile-picture" src="./images/profile.jpg" alt="Fechada da loja Games Shop" />
+            <div>
+                <h2>Sobre mim</h2>
+                <p>
+                    Graduado em Sistemas de Informação e entusiasta por tecnologia e programação.<br>
+                    Com conhecimento nas linguagens HTML,
+                    CSS e JavaScript, busco oportunidade de
+                    atuação na área de Desenvolvimento Web Front-End.
+                </p>
+                <h2>Formação</h2>
+                <p>
+                    Sistemas de Informação<br>
+                    Universidade de Mogi das Cruzes (UMC)<br>
+                    Situação: Completo (2013-2016)
+                </p>
+                <h2>Cursos</h2>
+                <p>
+                    Desenvolvimento de Front-End<br>
+                    Escola Britânica de Artes Criativas & Tecnologia (EBAC)<br>
+                    Situação: Cursando
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="contact-methods">
+                <div>
+                    <h3>Entre em Contato</h3><br>
+                    <h5>Caro recrutador, entre em contato comigo <br>
+                        digitando abaixo suas informações. <br>
+                        Ficarei lisonjeado em ter uma conversa com você :)</h5>
+                    <form class="font-form">
+                        <label for="name">Digite seu nome</label>
+                        <input id="name" type="text" placeholder="Guilherme Kiss" required />
+                        <label for="e-mail">Digite seu e-mail</label>
+                        <input id="e-mail" type="email" placeholder="exemplo@exemplo.com.br" required />
+                        <label for="phone-number">Digite seu telefone (opcional)</label>
+                        <input id="phone-number" type="tel" placeholder="(XX)xxxxx-xxxx" />
+                        <label for="company">Empresa (opcional)</label>
+                        <input id="company" type="text" placeholder="EBAC" />
+                        <label for="type-contact">Como gostaria de ser contatado(a)?</label><br>
+                        <select name="type-contact" id="type-contact">
+                        <option value="email">E-mail</option>
+                        <option value="telephone">Ligação por Telefone</option>
+                        <option value="whatsapp">Whatsapp</option><br>
+                        </select>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Minhas redes sociais</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.instagram.com/guilhermekiss/" target="_blank" title="Siga-me no Instagram">
+                                <img src="./images/instagram.png" alt="Logo do Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/guilherme-kiss/" target="_blank" title="Visite meu LinkedIn">
+                                <img src="./images/linkedin.png" alt="Logo do LinkedIn">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/GuilhermeKiss" target="_blank" title="Visite meu GitHub">
+                                <img src="./images/github.png" alt="Logo do GitHub">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Currículo</h3>
+                    <p>
+                        <a class="curriculum" href="./docs/Curriculo Guilherme Kiss.pdf" target="_blank">
+                            Clique aqui para visualizar meu CV
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Guilherme Kiss - Todos os direitos reservados - 2023.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+
